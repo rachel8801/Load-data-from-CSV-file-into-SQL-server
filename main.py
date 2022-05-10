@@ -21,10 +21,10 @@ columns_ls = df.columns.tolist()
 columns_list = f'([{("],[".join(columns_ls))}])'
 
 driver = 'SQL Server'
-server = 'sql2019sd.nourison.com'
+server = 'sql2019sd'
 database = 'Salsify'
 username = 'Salsify'
-password = 'Tableau$2021'
+password = 'Tab'
 cnn_string= f'Driver={driver};Server={server};Database={database};UID={username}; PWD={password}'
 
 
@@ -50,7 +50,7 @@ def update_table():
                          row['Features.3'], row['Features.4'], row['Features.5'], row['Features.6'], row['Features.7'],
                          row['Features.8'], row['Pile description'], row['Pile description.1'],
                          row['Pile description.2'], row['Construction Technique'], row['Masterpiece'],
-                         row['WS with cost increase'], row['UPDATED Flat image'], row['UPDATED Flat image.1'],
+                         row['UPDATED Flat image'], row['UPDATED Flat image.1'],
                          row['UPDATED Flat image.2'], row['UPDATED Flat image.3'], row['UPDATED Flat image.4'],
                          row['UPDATED Flat image.5'], row['UPDATED Flat image.6'],
                          row['Filter Primary Rug Classification'], row['Filter Style'], row['Filter Style.1'],
