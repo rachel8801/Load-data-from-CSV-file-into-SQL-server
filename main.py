@@ -21,10 +21,10 @@ columns_ls = df.columns.tolist()
 columns_list = f'([{("],[".join(columns_ls))}])'
 
 driver = 'SQL Server'
-server = 'sql2019sd'
+server = 'server'
 database = 'Salsify'
-username = 'Salsify'
-password = 'Tab'
+username = 'Username'
+password = 'Fake'
 cnn_string= f'Driver={driver};Server={server};Database={database};UID={username}; PWD={password}'
 
 
