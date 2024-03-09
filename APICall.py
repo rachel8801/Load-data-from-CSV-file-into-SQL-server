@@ -12,7 +12,7 @@ def get_export_url():
                 "format": "csv",
                 "filter": "=list:default",
                 "include_all_columns": False,
-                "properties":"'UPC','Product','Ready to publish','Nourison Color','Website publish','Workflow Status','USE','Shape','General Size','Recommended Style','MSRP','Wholesale Price','Designer Price','Stocking Dealer Price','Traffic recommendation','Shedding','Created Date','Construction','Material','BORDER','General Size - Computed','Features','Pile description','Construction Technique','Masterpiece','UPDATED Flat image','Filter Primary Rug Classification','Filter Style','Filter Patterns','Filter Material','Filter Color 1','Product Patterns','Product Colors','Product Styles','Non-slip back','Reversible','Latex free','MACHINE WASHABLE?','All-natural','Recycled','JPG Export - Flat image','Fill Material','Back Material','Cover Material'"}
+                "properties":"'UPC','Product','Ready to publish','Color','Website publish','Workflow Status','USE','Shape','General Size','Recommended Style','MSRP','Wholesale Price','Designer Price','Stocking Dealer Price','Traffic recommendation','Shedding','Created Date','Construction','Material','BORDER','General Size - Computed','Features','Pile description','Construction Technique','Masterpiece','UPDATED Flat image','Filter Primary Rug Classification','Filter Style','Filter Patterns','Filter Material','Filter Color 1','Product Patterns','Product Colors','Product Styles','Non-slip back','Reversible','Latex free','MACHINE WASHABLE?','All-natural','Recycled','JPG Export - Flat image','Fill Material','Back Material','Cover Material'"}
 
         })
         headers = {
