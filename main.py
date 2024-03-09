@@ -42,7 +42,7 @@ def update_table():
         ## Insert Dataframe into SQL Server:
         for index, row in df.iterrows():
             curr.execute(f""" INSERT INTO dbo.[all_products]{columns_list} values{param_slots}""", row['UPC'], row['Product'],
-                         row['ECOMM PUBLISH'], row['Website publish'], row['Workflow Status'],row['Nourison Color'],
+                         row['ECOMM PUBLISH'], row['Website publish'], row['Workflow Status'],row['Color'],
                          row['Application'], row['Shape'], row['General Size'], row['Recommended Style'],
                          row['MSRP'], row['Wholesale Price'], row['Designer Price'], row['Stocking Dealer Price'],
                          row['Traffic recommendation'], row['Shedding'], row['Created Date'], row['Construction'],
