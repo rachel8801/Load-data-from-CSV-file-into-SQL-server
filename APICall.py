@@ -19,7 +19,7 @@ def get_export_url():
             'Content-Type': 'application/json',
             'Authorization': ''
         }
-        conn.request("POST", "/api/orgs/s-6b163c22-b831-46cb-8ebe-f089/export_runs", payload, headers)
+        conn.request("POST", "/api/orgs/123456789/export_runs", payload, headers)
         res = conn.getresponse()
         data = res.read()
         res_data = json.loads(data.decode("utf-8"))
@@ -40,7 +40,7 @@ def get_export_url():
         try:
             # print("start- sleep", t)
             time.sleep(30)
-            conn.request("GET", "/api/orgs/s-6b163c22-b831-46cb-8ebe-f089/export_runs/{}".format(export_id),
+            conn.request("GET", "/api/orgs/123456789/export_runs/{}".format(export_id),
                          payload_2, header_2)
             res = conn.getresponse()
             # print(res.status)
